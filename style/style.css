@@ -1,0 +1,79 @@
+#block-todolist{
+	background: lightblue;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding:20px;
+	width: 100%;
+	margin: 0px;
+}
+.wrap{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-flow: column nowrap;
+	width: 100%;
+}
+.btnAdd{
+	cursor: pointer;
+	margin-left: 10px;
+	background: yellow;
+	padding: 5px;
+	border: 1px solid red;
+	width: 100px;
+}
+.inputText{
+	padding: 5px;
+}
+.list{
+	margin: 10px;
+	width: 100%;
+	border: 1px solid green;
+	display: flex;
+	align-items: center;
+
+}
+.list{
+	margin: 10px;
+	width: 100%;
+	border: 1px solid green;
+	display: flex;
+	align-items: center;
+	padding: 10px;
+
+}
+li.list:nth-child(odd) {   /* odd всі парні li */
+      background: lightgreen;
+}
+li.list:nth-child(even) {     /* even всі непарні li */
+      background: pink;
+}
+.text{
+	width: 80%;
+	justify-content: flex-start;
+}
+
+.btnRemove{
+	width: 100px;
+	padding: 5px;
+	margin-right: 20px;
+	background: lightgreen;
+	justify-content: flex-end;
+}
+.btnRemove:hover{
+	
+	background: pink;
+	border:1px solid blue;
+}
+
+#toDoList{
+	width: 100%;
+	padding: 10px;
+}
+
+
+/*------------------canvas ------------------*/
+/*#game{
+	margin: 20px;
+}*/
+/*------------------canvas ------------------*/
